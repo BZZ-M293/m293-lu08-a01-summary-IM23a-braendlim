@@ -1,21 +1,484 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Zusammenfassung Modul 293</title>
+    <meta charset="UTF-8">
+    <title>Zusammenfassung Modul 293</title>
 
 </head>
 <body>
-  <header>
-    
-  </header>
-  <nav>
-    
-  </nav>
-  <h1>Zusammenfassung Modul 293</h1>
+<header>
+    <nav>
+        <a href="#LU01">LU01</a>
+        <a href="#LU02">LU02</a>
+        <a href="#LU03">LU03</a>
+        <a href="#LU04">LU04</a>
+        <a href="#LU05">LU05</a>
+        <a href="#LU06">LU06</a>
+        <a href="#LU07">LU07</a>
+        <a href="#LU08">LU08</a>
+    </nav>
+    <h1>Zusammenfassung Modul 293</h1>
+</header>
 
-  <footer>
-    
-  </footer>
+<article id="LU01">
+    <h1>LU01</h1>
+    <ul>
+        <li>
+            Installation von WebStorm
+        </li>
+        <li>
+            Verbindung WebStorm mit GitHub Account
+        </li>
+        <li>
+            HTML Grundlagen:
+            <ul>
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;...&lt;/html&gt;</li>
+                <li>&lt;head&gt;...&lt;/head&gt;</li>
+                <li>&lt;body&gt;...&lt;/body&gt;</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Beispiel:</h3>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="de"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;titleDemo - Selection/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        Hello World
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+</article>
+
+<article id="LU02">
+    <h1>LU02</h1>
+    <ul>
+        <li>
+            Inhalt strukturieren
+        </li>
+        <li>
+            CSS: Farbe des Hintergrunds und Wörter ändern
+        </li>
+        <li>
+            Bereichselemente:
+            <ul>
+                <li>
+                    &lt;nav&gt;
+                </li>
+                <li> &lt;main&gt;</li>
+                <li> &lt;header&gt;</li>
+                <li> &lt;footer&gt;</li>
+                <li> &lt;article&gt;</li>
+            </ul>
+        </li>
+        <li>
+            Block- und Inline-Elemente
+        </li>
+        <li>
+            Blockelemente:
+            <ul>
+                <li>
+                    Absätze &lt;p&gt;
+                </li>
+                <li> ungeordnete Liste &lt;ul&gt;</li>
+                <li> geordnete Liste &lt;ol&gt;</li>
+                <li> Artikel &lt;article&gt;</li>
+                <li> Sektion &lt;section&gt;</li>
+            </ul>
+        </li>
+        <li>
+            Inlineelemente:
+            <ul>
+                <li>
+                    Links &lt;a&gt;
+                </li>
+                <li> hervorgehobene Wörter &lt;em&gt;</li>
+                <li> wichtige Wörter &lt;strong&gt;</li>
+                <li> kurze Zitate &lt;q&gt;</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Beispiel:</h3>
+    <pre>
+     &lt;!DOCTYPE html&gt;
+    &lt;html lang="de"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;title&gt;LU02.A01 - Bereiche einsetzen&lt;/title&gt;
+        &lt;link rel="stylesheet" href="bereiche.css"&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;header&gt;
+            Ich bin die Kopfzeile der Seite
+            &lt;nav&gt;
+                Hier steht die Navigation
+            &lt;/nav&gt;
+        &lt;/header&gt;
+
+        &lt;main&gt;
+            Der Hauptinhalt folgt hier.
+            &lt;article&gt;
+                Ich bin der erste Artikel.
+                &lt;section&gt;
+                    Als Abschnitt gehöre ich zum ersten Artikel.
+                &lt;/section&gt;
+                &lt;section&gt;
+                    Auch ich bin ein Abschnitt.
+                &lt;/section&gt;
+            &lt;/article&gt;
+            &lt;article&gt;
+                Der zweite Artikel bin ich.
+                &lt;section&gt;
+                    Abschnitt eins im Artikel zwei.
+                &lt;/section&gt;
+            &lt;/article&gt;
+        &lt;/main&gt;
+        &lt;footer&gt;
+            Die Fusszeile schliesst alles ab.
+        &lt;/footer&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+</article>
+
+<article id="LU03">
+    <h1>LU03</h1>
+    <ul>
+        <li>
+            Tabelle erstellen
+        </li>
+        <li>
+            Selektoren
+        </li>
+        <li>
+            Block- und Inline-Elemente
+        </li>
+        <li>
+            Blockelemente:
+            <ul>
+                <li>
+                    &lt;div&gt;
+                </li>
+                <li> Paragraf &lt;p&gt;</li>
+                <li> Tabelle &lt;table&gt;</li>
+            </ul>
+        </li>
+        <li>
+            Inlineelemente:
+            <ul>
+                <li>
+                    Links &lt;a&gt;
+                </li>
+                <li> &lt;span&gt;</li>
+                <li> &lt;img src=""&gt; / &lt;img alt=""&gt;</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Beispiel:</h3>
+    <pre>
+        &lt;table&gt;
+            &lt;tr&gt;
+                &lt;th&gt;Marke&lt;/th&gt;
+                &lt;th colspan="2"&gt; Modelle&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td rowspan="2"&gt;Ferrari&lt;/td&gt;
+                &lt;td&gt;LaFerrari&lt;/td&gt;
+                &lt;td&gt;Enzo&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;458 Italia&lt;/td&gt;
+                &lt;td&gt;488 GTB&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Lamborghini&lt;/td&gt;
+                &lt;td colspan="2"&gt;Aventador&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td rowspan="2"&gt;Porsche&lt;/td&gt;
+                &lt;td&gt;911&lt;/td&gt;
+                &lt;td&gt;918 Spyder&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Panamera&lt;/td&gt;
+                &lt;td&gt;Cayman&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    </pre>
+</article>
+
+<article id="LU04">
+    <h1>LU04</h1>
+    <ul>
+        <li>
+            Elementnamen, Dateinamen und Attributnamen klein schreiben
+        </li>
+        <li>
+            Attribute mit Aufführungszeichen
+        </li>
+        <li>
+            Alle Elemente schliessen
+        </li>
+        <li>
+            Alt, Grösse und Breite des Bildes angeben
+        </li>
+        <li>
+            lange Codezeilen vermeiden
+        </li>
+        <li>
+            Titel angeben
+        </li>
+        <li>
+            hmtlhint installieren und anwenden
+        </li>
+    </ul>
+
+    <h3>Beispiel:</h3>
+    <pre>
+        &lt;h1&gt;Gleitschirmfliegen - Einsteigertipps und Ausrüstung&lt;/h1&gt;
+&lt;h2&gt;Einführung ins Gleitschirmfliegen&lt;/h2&gt;
+
+&lt;p&gt;
+    Gleitschirmfliegen ist ein beliebter Luftsport, bei
+    dem der Pilot mit einem Gleitschirm durch die Lüfte gleitet.
+    Es erfordert Übung und eine spezielle Ausrüstung, um sicher fliegen zu können.
+&lt;/p&gt;
+
+&lt;h2&gt;Ausrüstung&lt;/h2&gt;
+&lt;p&gt;
+    Um Gleitschirmfliegen zu können, benötigen Sie eine
+    Grundausstattung. Diese umfasst in der Regel einen
+    Gleitschirm, einen Gurtzeug und einen Helm. Zusätzlich
+    empfiehlt sich der Kauf eines Notschirms, einer Funkanlage
+    und eines GPS-Geräts.
+&lt;/p&gt;
+
+&lt;h2&gt;Tipps für Anfänger&lt;/h2&gt;
+&lt;p&gt;
+    1. Wählen Sie einen geeigneten Startplatz
+&lt;/p&gt;
+&lt;p&gt;
+    2. Üben Sie das Starten und Landen
+&lt;/p&gt;
+&lt;p&gt;
+    3. Lernen Sie die Wetterbedingungen kennen
+&lt;/p&gt;
+
+
+&lt;h3&gt;Beliebte Fluggebiete&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Österreich&lt;/li&gt;
+    &lt;li&gt;Schweiz&lt;/li&gt;
+    &lt;li&gt;Deutschland&lt;/li&gt;
+&lt;/ul&gt; mit &amp;lt &amp;gt;
+    </pre>
+</article>
+
+<article id="LU05">
+    <h1>LU05</h1>
+    <ul>
+        <li>
+            HTTP (POST, GET)
+        </li>
+        <li>
+
+            <ul>
+                <li>
+                    200: Anfrage erfolgreich
+                </li>
+                <li>
+                    302: Zieladresse hat sich geändert
+                </li>
+                <li>
+                    304: nicht geändert
+                </li>
+                <li>
+                    404: nicht gefunden
+                </li>
+                <li>
+                    500: Fehler
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            Adressen
+        </li>
+    </ul>
+
+    <h3>Beispiel:</h3>
+    <pre>
+&lt;div&gt;
+    &lt;img src=&quot;img/image01.png&quot; alt=&quot;image01.png&quot; height=&quot;214&quot; width=&quot;487&quot;/&gt;
+    &lt;!-- TODO image01.png --&gt;
+&lt;/div&gt;
+&lt;div&gt;
+    &lt;audio controls autoplay&gt;
+        &lt;source src=&quot;audio/song01.mp3&quot;&gt;
+    &lt;/audio&gt;
+    &lt;!-- TODO song01.mp3 --&gt;
+&lt;/div&gt;
+&lt;div&gt;
+    &lt;img src=&quot;../image02.png&quot; alt=&quot;image02.png&quot; height=&quot;372&quot; width=&quot;1166&quot;/&gt;
+    &lt;!-- /image02.png --&gt;
+&lt;/div&gt;
+&lt;div&gt;
+    &lt;img src=&quot;image03.png&quot; alt=&quot;image03.png&quot;&gt;
+    &lt;!-- image03.png --&gt;
+&lt;/div&gt;
+&lt;div&gt;
+    &lt;!-- TODO Video &quot;HTML: Relative und Absolute Links&quot; von Phlow --&gt;
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PhTp17k5hFY&quot; title=&quot;YouTube video player&quot;
+            allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot;
+            allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</pre>
+</article>
+
+<article id="LU06">
+    <h1>LU06</h1>
+    <ul>
+        <li>
+            Eingabefelder (z.B. Email eingeben)
+        </li>
+        <li>
+            Minimale und Maximale Validierung von Eingabefelder
+        </li>
+        <li>
+            Button(Submit, Delete)
+        </li>
+    </ul>
+
+    <h3>Beispiel:</h3>
+    <pre>
+&lt;form action=&quot;https://it.bzz.ch/demo/formdata/index.php&quot; method=&quot;post&quot;&gt;
+    &lt;label for=&quot;givenname&quot;&gt;Givenname&lt;/label&gt;
+    &lt;input id=&quot;givenname&quot; name=&quot;givenname&quot; type=&quot;text&quot; /&gt;
+    &lt;label for=&quot;surname&quot;&gt;Surname&lt;/label&gt;
+    &lt;input id=&quot;surname&quot; name=&quot;surname&quot; type=&quot;text&quot; /&gt;
+    &lt;label for=&quot;residence&quot;&gt;Residence&lt;/label&gt;
+    &lt;input id=&quot;residence&quot; name=&quot;residence&quot; type=&quot;text&quot; /&gt;
+    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+    &lt;button type=&quot;reset&quot;&gt;Reset&lt;/button&gt;
+&lt;/form&gt;
+</pre>
+</article>
+
+<article id="LU07">
+    <h1>LU07</h1>
+    <ul>
+        <li>
+            Auswahllisten
+        </li>
+        <li>
+            Checkbox (mehr Auswahl)
+        </li>
+        <li>
+            Radiobutton (eine Auswahl)
+        </li>
+        <li>
+            Fieldset als Formatierung
+        </li>
+        <li>
+            Legend als Titelformat
+        </li>
+    </ul>
+
+    <h3>Beispiel:</h3>
+    <pre>
+&lt;form action=&quot;https://it.bzz.ch/demo/formdata/index.php&quot; method=&quot;post&quot;&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;Fahrzeugmodell:&lt;/legend&gt;
+        &lt;label&gt;
+        &lt;select name=&quot;Fahrzeugmodell&quot; size=&quot;1&quot;&gt;
+            &lt;option&gt;Volvo&lt;/option&gt;
+            &lt;option&gt;BMW&lt;/option&gt;
+            &lt;option&gt;Porsche&lt;/option&gt;
+            &lt;option&gt;Lamborghini&lt;/option&gt;
+            &lt;option&gt;Toyota&lt;/option&gt;
+            &lt;option&gt;Jeep&lt;/option&gt;
+            &lt;option&gt;Ferrari&lt;/option&gt;
+            &lt;option&gt;Tesla&lt;/option&gt;
+            &lt;option&gt;Lincoln&lt;/option&gt;
+            &lt;option&gt;Western Star&lt;/option&gt;
+            &lt;option&gt;Honda&lt;/option&gt;
+            &lt;option&gt;Acura&lt;/option&gt;
+            &lt;option&gt;smart&lt;/option&gt;
+            &lt;option&gt;Subaru&lt;/option&gt;
+            &lt;option&gt;Ford&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;/label&gt;
+    &lt;/fieldset&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;Lackfarbe&lt;/legend&gt;
+        &lt;input type=&quot;radio&quot; id=&quot;a&quot; name=&quot;Modell&quot; value=&quot;Rot&quot;&gt;
+        &lt;label for=&quot;a&quot;&gt; Rot &lt;/label&gt;
+        &lt;input type=&quot;radio&quot; id=&quot;b&quot; name=&quot;Modell&quot; value=&quot;Blau&quot;&gt;
+        &lt;label for=&quot;b&quot;&gt; Blau &lt;/label&gt;
+        &lt;input type=&quot;radio&quot; id=&quot;c&quot; name=&quot;Modell&quot; value=&quot;Grün&quot;&gt;
+        &lt;label for=&quot;c&quot;&gt; Grün &lt;/label&gt;
+        &lt;input type=&quot;radio&quot; id=&quot;f&quot; name=&quot;Modell&quot; value=&quot;Lila&quot;&gt;
+        &lt;label for=&quot;f&quot;&gt; Lila &lt;/label&gt;
+        &lt;input type=&quot;radio&quot; id=&quot;g&quot; name=&quot;Modell&quot; value=&quot;Pink&quot;&gt;
+        &lt;label for=&quot;g&quot;&gt; Pink &lt;/label&gt;
+        &lt;input type=&quot;radio&quot; id=&quot;d&quot; name=&quot;Modell&quot; value=&quot;Schwarz&quot;&gt;
+        &lt;label for=&quot;d&quot;&gt; Schwarz &lt;/label&gt;
+        &lt;input type=&quot;radio&quot; id=&quot;e&quot; name=&quot;Modell&quot; value=&quot;Weiss&quot;&gt;
+        &lt;label for=&quot;e&quot;&gt; Weiss &lt;/label&gt;
+    &lt;/fieldset&gt;
+    &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+</pre>
+
+</article>
+
+<article id="LU08">
+    <h1>LU08</h1>
+    <ul>
+        <li>
+            Navigation von Artikel / Seiten
+        </li>
+        <li>
+            Navigation verlinken
+        </li>
+    </ul>
+    <h3>Beispiel:</h3>
+    <pre>
+        &lt;nav&gt;
+            &lt;a href=&quot;#LU01&quot;&gt;LU01&lt;/a&gt;
+            &lt;a href=&quot;#LU02&quot;&gt;LU02&lt;/a&gt;
+            &lt;a href=&quot;#LU03&quot;&gt;LU03&lt;/a&gt;
+            &lt;a href=&quot;#LU04&quot;&gt;LU04&lt;/a&gt;
+            &lt;a href=&quot;#LU05&quot;&gt;LU05&lt;/a&gt;
+            &lt;a href=&quot;#LU06&quot;&gt;LU06&lt;/a&gt;
+            &lt;a href=&quot;#LU07&quot;&gt;LU07&lt;/a&gt;
+            &lt;a href=&quot;#LU08&quot;&gt;LU08&lt;/a&gt;
+        &lt;/nav&gt;
+
+        &lt;article id=&quot;LU08&quot;&gt;
+            &lt;h1&gt;LU08&lt;/h1&gt;
+            &lt;ul&gt;
+                &lt;li&gt;
+                    Navigation von Artikel / Seiten
+                &lt;/li&gt;
+                &lt;li&gt;
+                    Navigation verlinken
+                &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;h3&gt;Beispiel:&lt;/h3&gt;
+        &lt;/article&gt;
+    </pre>
+
+
+</article>
+<footer>
+</footer>
 </body>
 </html>
